@@ -1,0 +1,33 @@
+/* header */
+
+header{
+  margin-top: 1.5em;
+}
+
+.nav-bar-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-box{
+  margin-right: 5em;
+}
+
+.link-box ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-box ul li{
+  padding: 0.6em;
+}
+
+.link-box ul li a{
+  font-size: 1.3em;
+}
+
+.logo{
+  width: 100px;
+  margin-left: 5em;
+}
