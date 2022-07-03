@@ -1,0 +1,140 @@
+.apresentation-box{
+  position: relative;
+  margin-top: 5em;
+}
+
+.img-apresentation{
+  width: 40%;
+  height: 800px;
+  background-image: url(src\assets\img\apresentation-image.jpg);
+  background-size: cover;
+  margin-left: 1em;
+}
+
+.apresentation{
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 110px;
+  color: #fff;
+}
+
+#sobre{
+  font-size: 4rem;
+  transition: 0.4s;
+  margin-left: 20px;
+}
+
+.apresentation p{
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.link-resume{
+  max-width: 50px;
+}
+
+.resume-btn{
+    background-color: #F2294E;
+    border-radius:28px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding: 5px 10px;
+  }
+
+.resume-btn:hover {
+    background-color:#A60A53;
+}
+
+.resume-btn:active {
+    position:relative;
+    top:1px;
+}
+
+.description{
+  font-size: 1rem;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+/* skills */
+
+.skills{
+  width: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color:#ffffff;
+  top: 300px;
+  right: 90px;
+}
+
+.skills-title{
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.skills-title span{
+  margin-right: 1em;
+}
+
+.progress{
+  width: 50%;
+}
+
+/* Experience */
+
+.experience{
+  width: 50%;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 520px;
+  right: 90px;
+  color: #fff;
+}
+
+/* languages */
+
+.languages{
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 610px;
+  right: 90px;
+  color: #fff;
+}
+
+.language-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.language-list span{
+  color: #A60A53;
+}
+
+/* interets */
+
+.interests{
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  top: 710px;
+  right: 90px;
+  color: #fff;
+}
+
+.interests-list{
+  display: flex;
+  justify-content: space-between;
+}
