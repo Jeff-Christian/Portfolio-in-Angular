@@ -1,11 +1,12 @@
 .apresentation-box{
+  height: 900px;
   position: relative;
   margin-top: 5em;
 }
 
 .img-apresentation{
   width: 40%;
-  height: 800px;
+  height: 900px;
   background-image: url(src\assets\img\apresentation-image.jpg);
   background-size: cover;
   margin-left: 1em;
