@@ -4,6 +4,7 @@
   background-image: url(src\assets\img\banner.gif);
   background-size: cover;
   position: relative;
+  display: flex;
 }
 
 .apresentation{
@@ -11,9 +12,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: absolute;
-  bottom: 200px;
-  left: 100px;
 }
 
 .title{
@@ -39,4 +37,55 @@
 .subtitle{
   max-width: 670px;
   color: #fff;
+  font-size: 1.2em;
+}
+
+
+/* button */
+
+.container-fluid{
+  margin: 3em;
+}
+
+.link-resume{
+  position: relative;
+  padding: 15px 30px;
+  border: 2px solid #A60A53;
+  margin: 40px;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+  transition: 0.5s;
+}
+
+.link-resume button{
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.link-resume:hover{
+  border: 2px solid #BAD9C8;
+}
+
+.link-resume:nth-child(2){
+  filter: hue-rotate(80deg);
+}
+
+.link-resume::before{
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background-color: #A60A53;
+  box-shadow: 5px -8px 0 #A60A53, 5px -8px 0 #A60A53;
+}
+
+.link-resume:hover::before{
+  background-color: #BAD9C8;
+  box-shadow: 5px -8px 0 #BAD9C8, 5px -8px 0 #BAD9C8;
 }
