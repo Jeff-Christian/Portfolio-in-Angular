@@ -121,22 +121,55 @@
   line-height: 1em;
 }
 
+.card-body h5{
+  color: #fff;
+  font-size: 2.2em;
+  line-height: 1em;
+  margin-top: 1em;
+}
+
 .apresentation-container .card .content p{
   color: #fff;
 }
 
-.apresentation-container .card .content a{
-  position: relative;
+.card-body p{
   color: #fff;
 }
 
-.apresentation-container .card .content a:hover{
+
+.apresentation-container .card .content button{
+  position: relative;
+  color: #fff;
+  border: none;
+  background: none;
+}
+
+.apresentation-container .card .content button:hover{
   color: #0e1212;
   background-color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   padding: 10px 20px;
   margin-top: 10px;
+  transition: 0.5s;
+}
+
+.btn{
+  color: #0e1212;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+#hidden{
+  display: none;
+  transition: 0.5s;
+}
+
+#show{
   transition: 0.5s;
 }
 
