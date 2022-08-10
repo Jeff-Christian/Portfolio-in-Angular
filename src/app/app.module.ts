@@ -7,7 +7,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ApresentationComponent } from './components/apresentation/apresentation.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { ContatoComponent } from './components/contato/contato.component';
-import { SkillsComponent } from './skills/skills.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
