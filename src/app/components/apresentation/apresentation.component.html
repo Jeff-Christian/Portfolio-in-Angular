@@ -1,33 +1,4 @@
 <main>
-  <!-- <div class="apresentation-box">
-    <div class="img-apresentation">
-    <div class="experience">
-      <h2>Experiências: </h2>
-      <p> * Em busca da primeira experiência Dev</p>
-    </div>
-    <div class="languages">
-      <h2>Idiomas: </h2>
-      <div class="language-list">
-        <span class="sgl">pt-BR</span> Português, fluente.
-        <span class="sgl">en-US</span> Inglês, intermediário.
-        <span class="sgl">es-ES</span> Espanhol, básico.
-      </div>
-    </div>
-    <div class="interests">
-      <h2>Tenho interesse em:</h2>
-        <div class="interests-list">
-          <p>UX/UI design</p>
-          <p>Design e Motion Design</p>
-        </div>
-        <div class="interests-list">
-          <p>Photoshop</p>
-          <p>Illustrator</p>
-        </div>
-        <div class="interests-list">
-          <p>WordPress</p>
-        </div>
-    </div>
-  </div> -->
   <div class="apresentation-container">
     <div class="card">
       <div class="content">
@@ -42,33 +13,42 @@
       <div class="card-header">
         <ul class="nav nav-tabs card-header-tabs">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="true" href="#">Experiências</a>
+            <button name="experience" (click)="active($event)" class="btn-link nav-link active" aria-current="true" href="#">Experiências</button>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Idiomas</a>
+            <button name="languages"  (click)="active($event)" class="btn-link nav-link" href="#">Idiomas</button>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Interesses</a>
+            <button name="interests"  (click)="active($event)" class="btn-link nav-link" href="#">Interesses</button>
           </li>
         </ul>
       </div>
-
 
       <div class="card-body">
         <h5 class="card-title">Experiências:</h5>
         <p class="card-text">* Em busca da primeira experiência Dev</p>
         <button class="btn" (click)="hidden($event)">Fechar</button>
       </div>
-<!--
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+      <!-- <div class="card-body">
+        <h5 class="card-title">Idiomas:</h5>
+        <span class="card-text">
+          <p>pt-BR Português, fluente.</p>
+          <p>Inglês, intermediário.</p>
+          <p>Espanhol, básico.</p>
+        </span>
         <button class="btn btn-primary" (click)="hidden($event)">Fechar</button>
       </div>
 
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Tenho interesse em:</h5>
+        <span class="card-text">
+          <p>UX/UI design</p>
+          <p>Design e Motion Design</p>
+          <p>Photoshop</p>
+          <p>Illustrator</p>
+          <p>WordPress</p>
+        </span>
         <button class="btn btn-primary" (click)="hidden($event)">Fechar</button>
       </div> -->
 
