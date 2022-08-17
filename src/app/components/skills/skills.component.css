@@ -1,3 +1,65 @@
 #skills{
   color: #fff;
+  margin-top: 5em;
+}
+
+.skills-container{
+  display: flex;
+  gap: 8em;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.skills-header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.skills-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-subtitle, .skills-arrow{
+  color: #BFBFBF;
+  margin-right: 0.6em;
+}
+
+.skills-arrow{
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.progress{
+  margin-bottom: 2em;
+}
+
+.skills-data{
+  width: 500px;
+}
+
+.skills-content{
+  margin-bottom: 2em;
+}
+
+.skills-open .skills-list{
+  height: max-content;
+}
+
+.skills-open #arrow{
+  transform: rotate(-180deg);
+}
+
+.skills-close .skills-list{
+  height: 0;
+  overflow: hidden;
+}
+
+.progress-bar{
+  background-color: #A60A53;
 }
