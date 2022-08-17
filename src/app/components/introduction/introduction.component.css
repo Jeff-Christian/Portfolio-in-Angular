@@ -20,11 +20,12 @@
 }
 
 .title span{
-  color: #A60A53;
+  color: #0290a2;
 }
 
 .title span:hover{
   color: #BAD9C8;
+  transition: 0.5s;
 }
 
 .apresentation p{
@@ -105,7 +106,7 @@
 .link-resume{
   position: relative;
   padding: 15px 30px;
-  border: 2px solid #A60A53;
+  border: 2px solid #0290a2;
   margin: 40px;
   -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
   transition: 0.5s;
@@ -121,7 +122,7 @@
 }
 
 .link-resume button:hover{
-  color: #A60A53;
+  color: #0290a2;
 }
 
 .link-resume:hover{
@@ -140,8 +141,8 @@
   transform: translateY(-50%);
   width: 20px;
   height: 2px;
-  background-color: #A60A53;
-  box-shadow: 5px -8px 0 #A60A53, 5px -8px 0 #A60A53;
+  background-color: #0290a2;
+  box-shadow: 5px -8px 0 #0290a2, 5px -8px 0 #0290a2;
 }
 
 .link-resume:hover::before{

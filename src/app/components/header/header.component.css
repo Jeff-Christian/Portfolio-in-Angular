@@ -25,12 +25,14 @@ header{
 }
 
 .link-box ul li a{
-  color: #A60A53;
+  /* color: #A60A53; */
+  color: #0290a2;
   font-size: 1.3em;
 }
 
 .link-box ul li a:hover{
   color: #BAD9C8;
+  transition: 0.5s;
 }
 
 .logo{
