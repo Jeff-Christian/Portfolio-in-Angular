@@ -4,6 +4,11 @@
   margin-top: 5em;
 }
 
+main{
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
 .could{
   display: flex;
   flex-direction: column;
@@ -13,12 +18,32 @@
   margin-left: 1em;
 }
 
+.could span{
+  font-size: 0.6em;
+}
+
 #contact p {
   position: relative;
   display: block;
   margin: 2em 2em 2em 20em;
   color: #fff;
   max-width: 300px;
+}
+
+.email:before{
+  content: 'Copiado';
+  position: absolute;
+  top: -50px;
+  background-color: #A60A53;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #BAD9C8;
+  display: none;
+}
+
+.email.active:before{
+  display: block;
 }
 
 .email{

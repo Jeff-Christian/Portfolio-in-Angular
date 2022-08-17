@@ -17,4 +17,17 @@ export class ContatoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  copied(){
+    let copyText = document.getElementById('btn-email') as HTMLInputElement;
+
+    navigator.clipboard.writeText(copyText.value);
+
+    copyText.classList.add('active');
+    window.getSelection()?.removeAllRanges();
+    setTimeout(function(){
+      copyText.classList.remove('active');
+    }, 2500);
+
+  }
+
 }
